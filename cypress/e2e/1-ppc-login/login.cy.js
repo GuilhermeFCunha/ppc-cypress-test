@@ -32,7 +32,7 @@ describe('login ppc', () => {
         cy.get('#input-23').clear();
         cy.get('#input-23').type('guilherme.cunha@produzindocerto.com.br');
         cy.get('#input-27').clear();
-        cy.get('#input-27').type('Guifeitos@10');
+        cy.get('#input-27').type('********');
         cy.get('.v-btn--block > .v-btn__content').click();
         cy.get('.d-sm-inline > .v-list-item > .v-list-item__content > .v-list-item__subtitle').contains('guilherme.cunha@produzindocerto.com.br')
     });
@@ -42,7 +42,7 @@ describe('login ppc', () => {
         cy.get('#input-23').clear();
         cy.get('#input-23').type('guilherme.cunha@produzindocerto.com.br');
         cy.get('#input-27').clear();
-        cy.get('#input-27').type('Guifeitos@10');
+        cy.get('#input-27').type('*******');
         cy.get('.v-btn--block > .v-btn__content').click();
         cy.get('.v-list-item__icon > .v-btn > .v-btn__content > .v-icon').click();
         cy.wait(1700);
